@@ -47,11 +47,6 @@
             alert('You have been pranked!');
         });
 
-     const btn3 = document.getElementById('fetchBtn');
-        button2.addEventListener('click', () => {
-            alert('You have displayed data!');
-        });
-
 
         const button = document.getElementById('btn');
         button.addEventListener('click', () => {
@@ -59,6 +54,9 @@
         });
 
         const button3 = document.getElementById('fetchBtn');
+         fetchBtn.addEventListener('click', () => {
+            alert('You have displayed data!');
+        });
         const result = document.getElementById('result');
 
         async function getGitHubUser(username) {
